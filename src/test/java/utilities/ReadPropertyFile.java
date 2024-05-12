@@ -11,7 +11,10 @@ public class ReadPropertyFile {
 		FileReader fr = new FileReader("/home/nafiz/TigerIT/projects/Personal/SeleniumCraft/src/test/resources/configfiles/config.properties");
 		Properties p = new Properties();
 		p.load(fr);
-		System.out.println(p.getProperty("browser"));
+//		System.out.println(p.getProperty("browser"));
+//		System.out.println(p.getProperty("URL"));
+
+
 	}
 
 }
